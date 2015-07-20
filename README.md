@@ -1,12 +1,9 @@
 # Zappy
 
+This is the zappy project, featuring C socket programming, with and IA and graphical client.
 
-## Task
+## Usage
 
-* Server -> kauch_j / quach_a / frayss_c
-* Client Graphic -> lin_c / saysan_j
-* Client AI -> frayss_c / han_d
-
-## Rebase your branch PLEASE
-
-Please rebase your branch as much as possible.
+Server : `./zappy_server -x 16 -y 16 -n t1 t2 -t 100 -p 4041`
+IA : `./zappy_ai -n t1 -p 4041`
+Graphic (in `map` folder) : `./main.py 127.0.0.1 4041`
